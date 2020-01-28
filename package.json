@@ -69,7 +69,7 @@
     "js-base64": "^2.4.9",
     "lodash.throttle": "^4.1.1",
     "proper-lockfile": "^2.0.1",
-    "url-parse": "^1.4.3"
+    "url-parse": "^1.4.5"
   },
   "scripts": {
     "build": "mkdir -p dist && browserify lib/index.js -t [ babelify ] -s tus -d | exorcist ./dist/tus.js.map | derequire > dist/tus.js",
